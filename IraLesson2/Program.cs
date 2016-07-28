@@ -8,6 +8,7 @@ namespace IraLesson2
         static void Main(string[] args)
         {
             //Hello yura
+            //Hello Ira
             string s = "10";
             int a = 5;
             s = a.ToString();//convert int to string
