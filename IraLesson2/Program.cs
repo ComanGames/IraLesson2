@@ -7,22 +7,14 @@ namespace IraLesson2
     {
         static void Main(string[] args)
         {
-            int a = 5 + 6;//11
-            a = a + 5;//16
-            a += 5;//21
-            a = a/2;
-            a /= 2;
-            a = a*2;
-            a *= 2;
-            a = a - 2;
-            a -= 2;
-            a = 5;// присвоэеня
-            int b = 10;
-            b =b%4;
-            Console.WriteLine(b);
+            Console.WriteLine("Write your x");
+            string x = Console.ReadLine();
+            Console.WriteLine("X={x}");//wihotu dollar and with dollar
+            Console.WriteLine($"X={x}");
+            int result = int.Parse(x);
+            result *= 2;
+            Console.WriteLine($"x*2={result}");
             Console.ReadKey();
-            
-
         }
     }
 }
