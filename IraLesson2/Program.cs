@@ -8,12 +8,10 @@ namespace IraLesson2
         static void Main(string[] args)
         {
             Console.WriteLine("Write your x");
-            string x = Console.ReadLine();
-            Console.WriteLine("X={x}");//wihotu dollar and with dollar
+            string stringX = Console.ReadLine();
+            int x = int.Parse(stringX);
             Console.WriteLine($"X={x}");
-            int result = int.Parse(x);
-            result *= 2;
-            Console.WriteLine($"x*2={result}");
+            Console.WriteLine($"x*2={x*2}");
             Console.ReadKey();
         }
     }
