@@ -18,7 +18,8 @@ namespace IraLesson2
             a -= 2;
             a = 5;// присвоэеня
             int b = 10;
-            Console.WriteLine(b%15);
+            b =b%4;
+            Console.WriteLine(b);
             Console.ReadKey();
             
 
